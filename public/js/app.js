@@ -12,6 +12,7 @@ firebase.initializeApp(config);
 firebase.auth.Auth.Persistence.LOCAL;
 
 $("#btn-login").click(function () {
+    console.log("----------Start----");
     var email = $("#email").val();
     var password = $("#password").val();
 
